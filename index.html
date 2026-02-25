@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bedre Kajal | Java Backend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="logo" style="margin-left: 20px;">Bedre Kajal</div>
+    <div class="hamburger"><i class="fas fa-bars"></i></div>
+
+    <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+    <h1>Hi, I'm <span style="color:#a855f7;">Kajal Bedre</span></h1>
+    <h2><span id="typing"></span><span class="cursor">|</span></h2>
+
+    <p>
+        Passionate Java Backend Developer specializing in secure and scalable
+        REST APIs using Spring Boot, Spring Security & MySQL.
+    </p>
+
+    <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+        <a href="https://github.com/kajal-bedre" target="_blank" class="btn-outline">GitHub</a>
+        <a href="https://linkedin.com/in/kajal-bedre-a6b764370" target="_blank" class="btn-outline">LinkedIn</a>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about reveal" id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+
+        <div class="about-image">
+            <div class="image-wrapper">
+                <img src="profile.jpj.jpeg" alt="Kajal Bedre">
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3 class="counter" data-target="12">0</h3>
+                    <p>APIs Built</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3 class="counter" data-target="2">0</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3 class="counter" data-target="8">0</h3>
+                    <p>Technologies</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-text">
+            <p>
+                I am a <strong>Java Backend Developer</strong> with hands-on
+                experience in building secure RESTful APIs using Spring Boot
+                and Spring Security.
+            </p>
+
+            <p>
+                I specialize in <strong>JWT authentication</strong>,
+                role-based authorization, and database integration using
+                JPA, Hibernate, and MySQL.
+            </p>
+
+            <p>
+                I focus on writing clean, maintainable code using
+                layered architecture and best practices.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="skills reveal" id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>Programming</h3>
+            <p>Java, HTML, CSS</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Backend</h3>
+            <p>Spring, Spring Boot, Spring Security, JPA, Hibernate</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>API & Security</h3>
+            <p>REST APIs, JWT, Role-Based Access, Swagger</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Database & Tools</h3>
+            <p>MySQL, Git, GitHub, Postman, Maven, VS Code</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects reveal" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <div class="project-content">
+                <h3>User Management System</h3>
+                <p>
+                    Secure REST APIs using Spring Boot with JWT authentication
+                    and MySQL integration.
+                </p>
+                <p><strong>Tech:</strong> Spring Boot, Spring Security, JWT, MySQL</p>
+            </div>
+
+            <div class="project-footer">
+                <a href="https://github.com/kajal-bedre" target="_blank" class="btn-outline">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-content">
+                <h3>Loan Finance Application</h3>
+                <p>
+                    A digital loan management system allowing users to apply
+                    for loans, check eligibility, and manage repayments securely.
+                </p>
+                <p><strong>Tech:</strong> Spring Boot, Microservices, JWT, MySQL</p>
+            </div>
+
+            <div class="project-footer">
+                <a href="https://github.com/kajal-bedre" target="_blank" class="btn-outline">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact reveal" id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+
+        <a href="mailto:bedrekajal377@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i> bedrekajal377@gmail.com
+        </a>
+
+        <a href="tel:8830767445" class="contact-item">
+            <i class="fas fa-phone"></i> 8830767445
+        </a>
+
+        <a href="https://linkedin.com/in/kajal-bedre-a6b764370" target="_blank" class="contact-item">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="https://github.com/kajal-bedre" target="_blank" class="contact-item">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+
+    </div>
+</section>
+
+<!-- JS -->
+<script src="script.js"></script>
+<div class="cursor-glow"></div>
+</body>
+</html>
